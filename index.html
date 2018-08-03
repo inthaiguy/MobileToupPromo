@@ -17,8 +17,9 @@
 
 
       <div class="bio">
-        <h1>MobileTopup Update</h1>
-        <p>We have just launched support for International prepaid mobile phones! We have just added PromptPay payment method. </p>
+        <h1>What's new?</h1>
+        <p>✓ PromptPay payment method. </p>
+        <p>✓ International prepaid mobile phones!</p>
         <ul class="inline-list">
           <li><a href="https://twitter.com/thaiprepaidcard"><i class="fab fa-twitter"></i>Twitter</a></li>
           <li><a href="https://www.facebook.com/thaiprepaidcard/"><i class="fab fa-facebook"></i>FBook</a></li>
@@ -27,30 +28,12 @@
         </ul>
       </div>
 
-      <article id="tweet"><span class="load flash animated">LOADING...</span></article>
+      <article></article>
 
     </div>
 
     <!-- Templates -->
 
-
-    <script id="tweet" type="text/html">
-      {{#rows}}
-        <p><span class="quote">&ldquo;</span> {{{tweet}}} <span class="quote"> &rdquo;</span></p>
-
-      {{/rows}}
-    </script>
-
-    <!-- JavaScript -->
-      <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-          var URL  = '' // insta
-          var URL2 = '2PACX-1vTPwuKEIat7GYmpdDWynw2NsbZSNsOvQKmlUZTFrEbzaORYIbYO42BfZq897A3fv1IvXCGzy8C7c3n8' // tweet
-
-          Tabletop.init({ key: URL,  callback: buildInsta,  simpleSheet: true })
-          Tabletop.init({ key: URL2, callback: buildTweet,  simpleSheet: true })
-        })
-      </script>
 
   </body>
 </html>

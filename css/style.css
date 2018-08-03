@@ -4,7 +4,7 @@ a {color: #96EBE1; text-decoration: none; }
 h1 {
 font-weight: 900;
 font-size: 50px;
-font-family: Lato;
+font-family: "Proxima", "Helvetica", Arial, sans-serif;
 padding: 0 20px 20px 20px;
 line-height: 1.2em;
 margin-top: 0;
@@ -25,10 +25,10 @@ p {font-size: 23px; line-height: 1.3em;}
 #tweet {padding: 20px; margin: 0 auto; margin-top: 20px; background: #F7F7F7; border-radius: 2px; color: #777;}
 .meta {font-family: Courier New; text-transform: uppercase; font-size: 10px;}
 .load {color: #eee; letter-spacing: .2em; font-size: 12px; }
-.inline-list {list-style: none; margin: 0; padding: 0;}
+.inline-list {list-style: none; margin: 12px; padding: 0;}
 .inline-list li {display: inline-block; }
 .inline-list li {padding-left: 20px;}
-.inline-list li a {padding: 2px 8px; border: 1px solid #96EBE1; border-radius: 2px; letter-spacing: .1em; text-transform: uppercase; font-weight: 400; font-size: 14px;}
+.inline-list li a {padding: 4px 8px; border: 1px solid #96EBE1; border-radius: 3px; letter-spacing: .1em; text-transform: uppercase; font-weight: 400; font-size: 14px;}
 .inline-list li a:hover {background: #96EBE1; color: #fff;}
 
 /*!
